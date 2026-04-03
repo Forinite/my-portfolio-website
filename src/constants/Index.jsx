@@ -30,7 +30,7 @@ import NavIcon from "../assets/logo.png";
 import PayfricaIcon from "../assets/PayfricaIcon.png";
 import BrainwaveIcon from "../assets/brainwave-symbol.svg";
 import LipSyncIcon from "../assets/LipSyncLogo.png";
-import AppleIcon from "../assets/aaple.svg";
+// import AppleIcon from "../assets/aaple.svg";
 import discordIcon from "../assets/discord.png";
 // import facebookIcon from "../assets/facebook.png";
 import gmailIcon from "../assets/gmail.png";
@@ -144,7 +144,7 @@ export const _2025ProjectsInfo = [
   {
     image: AppleImg,
     link: "",
-    icon: AppleIcon,
+    icon: 'apple.svg',
     title: "Apple IPhone 15",
     desc: "A clone of the official IPhone Website",
     screenshots: AppleShots,
