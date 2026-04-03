@@ -30,7 +30,7 @@ import NavIcon from "../assets/logo.png";
 import PayfricaIcon from "../assets/PayfricaIcon.png";
 import BrainwaveIcon from "../assets/brainwave-symbol.svg";
 import LipSyncIcon from "../assets/LipSyncLogo.png";
-import AppleIcon from "../assets/Apple.svg";
+import AppleIcon from "../assets/Aaple.svg";
 import discordIcon from "../assets/discord.png";
 // import facebookIcon from "../assets/facebook.png";
 import gmailIcon from "../assets/gmail.png";
