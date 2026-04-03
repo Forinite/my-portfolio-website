@@ -17,7 +17,13 @@ import GsapIcon from "../assets/GsapIcon.png";
 import LipSyncImg from "../assets/LipSyncImg.png";
 import NavImg from "../assets/NavImg.png";
 import PayfricaImg from "../assets/PayfricaImg.png";
+import InterImg from "../assets/InterImg.png";
+import CharityImg from "../assets/CharityImg.png";
+import CharityIconImg from "../assets/CharityIconImg.webp";
+import InterIconImg from "../assets/InterIconImg.png";
 import BrainwaveImg from "../assets/BrainwaveImg.png";
+import FestIconImg from "../assets/FestIconImg.png";
+import FestImg from "../assets/FestImg.png";
 import PortImg from "../assets/PortImg.png";
 import AppleImg from "../assets/AppleImg.png";
 import NavIcon from "../assets/logo.png";
@@ -26,14 +32,14 @@ import BrainwaveIcon from "../assets/brainwave-symbol.svg";
 import LipSyncIcon from "../assets/LipSyncLogo.png";
 import AppleIcon from "../assets/Apple.svg";
 import discordIcon from "../assets/discord.png";
-import facebookIcon from "../assets/facebook.png";
+// import facebookIcon from "../assets/facebook.png";
 import gmailIcon from "../assets/gmail.png";
 import whatsappIcon from "../assets/whatsapp.png";
 import XIcon from "../assets/X.png";
 
 import {
   AppleShots,
-  BrainwaveShots,
+  BrainwaveShots, CharityShots, FestShots, FullShots, InterShots,
   LipSyncShots,
   LipSyncVideo,
   NaviShots,
@@ -68,6 +74,62 @@ export const ServicesInfo = [
 
 export const _2025ProjectsInfo = [
   {
+    image: CharityImg,
+    link: "https://www.drobefoundation.org",
+    icon: CharityIconImg,
+    title: "DR OBE CHARITY FOUNDATION",
+    desc: "A charity website for supporting the cause of providing medical aid to rural communities.",
+    screenshots: CharityShots,
+    video: "",
+    online: true,
+    remarks:
+        "This was my Second ever Paying Client Project, Working on this project, I learnt how to integrate payment gateways and systems (Also with an admin dashboard that keeps track of transactions and custom automatic email system) while working on this project. They were major requirements from the client and it was my first time doing this (Of course I didn't tell them that) but at the end of the day I was able to integrate Paystack and PayPal, We had some issues with CashApp Integration due to the location barrier and PayStack had a bug that stopped us from being able to successfully create a commercial account, so while everything worked in test data only PayPal made it out of the sandbox",
+  },
+  {
+    image: InterImg,
+    link: "https://www.interboardersportspromoters.com",
+    icon: InterIconImg,
+    title: "Interboarders Sports Promoters ",
+    desc: "A website aimed at encouraging and counselling youths in sports",
+    screenshots: InterShots,
+    video: "",
+    online: true,
+    remarks:
+        "This was my third Paying Client Website. I built this website complete with dynamic routes, SSR and ISR (First time ever doing both of these and most of the other things listed), stylized and secured admin login and admin invitation, working contact form with custom date picker, toasts, rich text format support  and article support and inline edit data modals  alongside regular modals for adding, editing and deleting data. I tried my best to make the design of every part of this website visually unique despite the low budget I was working with as I believe every good site I make is just as beneficial to me.",
+  },
+  {
+    image: FestImg,
+    link: "https://www.echijafestivalcultural.com",
+    icon: FestIconImg,
+    title: "Ech'ija Cultural Festival",
+    desc: "My First Paying Client Website",
+    screenshots: FestShots,
+    video: "",
+    online: true,
+    remarks:
+        "This project was my first paying client website,  also I just learnt how to use Next Js ans Sanity using this project and also this was the first time I deployed a project with a custom domain name" +
+        "also It was the first time I built a fully functional website and " +
+        "integrated certain features.  " +
+        "For context, I built this website complete with: administrative control, " +
+        "dynamic content management system via an admin page, secure admin login and addition" +
+        " of administrators, custom toasts, custom email notification system, " +
+        "a working contact form and a logically full-proof event count down. " +
+        "It also contains a gallery page following the style and order of Pinterest" +
+        " while its admin page layout follows the layout of YouTube’s dashboard.  ",
+  },
+    {
+        image: FullShots[0],
+        link: "https://www.index.org",
+        icon: 'vite.svg',
+        title: "FullStack Developer Portfolio ",
+        desc: "A portfolio site I built for a fullstack developer",
+        screenshots: FullShots,
+        video: "",
+        online: false,
+        remarks:
+            "I learnt how to use Gsap for simple and conditional animations, I also began to use TypeScript and JavaScript in more technical ways while working on this. This particular project was one to the major ones that reshaped my thought process on code logic. I built this portfolio website for a fullstack developer who was a friend of my brother.",
+    },
+  {
     image: PortImg,
     link: "",
     icon: "vite.svg",
@@ -101,7 +163,7 @@ export const _2025ProjectsInfo = [
     video: LipSyncVideo,
     online: true,
     remarks:
-      "This was my very first successful orignal Idea Project. It's aim is to help animators -like me- save time in lip-syncing by providing the reference images needed to the user.  ",
+      "This was my very first successful original Idea Project. It's aim is to help animators -like me- save time in lip-syncing by providing the reference images needed to the user.  ",
   },
   {
     image: PayfricaImg,
@@ -202,7 +264,7 @@ export const WorkProcessInfo = [
   },
   {
     title: "Launch",
-    desc: "I will give you the source code and aid you with the launch",
+    desc: "I will give you the source code on request and aid you with the launch",
     icon: Rocket,
   },
 ];

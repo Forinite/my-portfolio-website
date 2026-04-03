@@ -36,6 +36,32 @@ import LipSync4 from "../assets/Screenshots/LipSync4.png";
 import LipSync5 from "../assets/Screenshots/LipSync5.png";
 import LipSync6 from "../assets/Screenshots/LipSync6.png";
 
+import Fest1 from "../assets/Screenshots/Fest1.png";
+import Fest2 from "../assets/Screenshots/Fest2.png";
+import Fest3 from "../assets/Screenshots/Fest3.png";
+import Fest4 from "../assets/Screenshots/Fest4.png";
+import Fest5 from "../assets/Screenshots/Fest5.png";
+import Fest6 from "../assets/Screenshots/Fest6.png";
+import Fest7 from "../assets/Screenshots/Fest7.png";
+
+import Inter1 from "../assets/Screenshots/Inter1.png";
+import Inter2 from "../assets/Screenshots/Inter2.png";
+import Inter3 from "../assets/Screenshots/Inter3.png";
+import Inter4 from "../assets/Screenshots/Inter4.png";
+import Inter5 from "../assets/Screenshots/Inter5.png";
+import Inter6 from "../assets/Screenshots/Inter6.png";
+
+import Charity1 from "../assets/Screenshots/Charity1.png";
+import Charity2 from "../assets/Screenshots/Charity2.png";
+import Charity3 from "../assets/Screenshots/Charity3.png";
+import Charity4 from "../assets/Screenshots/Charity4.png";
+import Charity5 from "../assets/Screenshots/Charity5.png";
+import Charity6 from "../assets/Screenshots/Charity6.png";
+
+import Full1 from "../assets/Screenshots/Full1.png";
+import Full2 from "../assets/Screenshots/Full2.png";
+import Full3 from "../assets/Screenshots/Full3.png";
+
 import LipSyncVid from "../assets/Videos/LipSyncVid.mp4";
 
 export const AppleShots = [Apple1, Apple2, Apple3, Apple4, Apple5];
@@ -58,4 +84,10 @@ export const LipSyncShots = [
 ];
 export const PortShots = [Port1, Port2, Port3, Port4, Port5, Port6];
 export const PayfricaShots = [Payfrica1, Payfrica2, Payfrica3];
+export const FestShots = [Fest1, Fest2, Fest3, Fest4, Fest5, Fest6, Fest7];
+
+export const InterShots = [Inter1, Inter2, Inter3, Inter4, Inter5, Inter6];
+export const CharityShots = [Charity1, Charity2, Charity3, Charity4, Charity5, Charity6];
+export const FullShots = [Full1, Full2, Full3];
+
 export const LipSyncVideo = LipSyncVid;

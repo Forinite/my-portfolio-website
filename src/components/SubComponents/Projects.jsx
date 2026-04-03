@@ -1,12 +1,11 @@
 import {
   BriefcaseBusiness,
   CloudCogIcon,
-  Grid3X3Icon,
-  GridIcon,
-  PartyPopper,
+
 } from "lucide-react";
-import { ProfilePic, ProjectsInfo } from "../../constants/Index";
+import {  ProjectsInfo } from "../../constants/Index";
 import { InfiniteMovingProjects } from "../ui/infinite-moving-projects";
+import {projectsLink} from "../../constants/links.jsx";
 
 const Projects = () => {
   return (
@@ -26,7 +25,7 @@ const Projects = () => {
             items={ProjectsInfo}
           />
         </div>
-        <a className="w-fit h-fit" href="/projects">
+        <a className="w-fit h-fit" href={projectsLink}>
           <div className=" cursor-pointer  w-fit mx-auto text-[10px] flex items-center py-1.5 px-3 text-black bg-purple-300 hover:opacity-100 transition-opacity rounded-lg relative -top-5 z-50  opacity-30">
             <CloudCogIcon className="w-4 h-4 mr-1" /> View All Projects
           </div>

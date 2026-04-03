@@ -1,3 +1,3 @@
-export const YearsExp = 3
-export const ProjectCount = 10
-export const ClientCount = 5
+export const YearsExp = 4
+export const ProjectCount = 20
+export const ClientCount = 10

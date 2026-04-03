@@ -1,15 +1,16 @@
-import { ArrowBigRight, Flag, HomeIcon } from "lucide-react";
+import {  HomeIcon } from "lucide-react";
 import {
   _2024ProjectsInfo,
   _2025ProjectsInfo,
   ProjectsInfo,
 } from "../../constants/Index";
 import ProjectInfoBox from "../CustomComponents/ProjectInfoBox";
-import { act, useEffect, useRef, useState } from "react";
-import { BackgroundCircles } from "../ui/BgCircle";
+import { useEffect, useState } from "react";
+// import { BackgroundCircles } from "../ui/BgCircle";
 import { TextGenerateEffect } from "../ui/TextGenerateEffect";
 import { GridBackgroundDemo } from "../ui/BgGrid";
 import { Spotlight } from "../ui/components/ui/spotlight-new";
+import {homeLink} from "../../constants/links.jsx";
 
 const ProjectPage = () => {
   const [activeGridBoxId, setActiveGridBox] = useState(null);
@@ -88,7 +89,7 @@ const ProjectPage = () => {
       <section className="">
         <div className="md:w-[70%] w-[80%] mx-auto relative">
           <div className="relative top-16 w-fit">
-            <a href="/home">
+            <a href={homeLink}>
               {" "}
               <HomeIcon className="w-8 h-8  text-purple-300 hover:text-blue-300  cursor-pointer hover:scale-105 transition-all" />
             </a>
